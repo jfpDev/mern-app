@@ -11,5 +11,5 @@ app.get('/api/resources', (req, res) => {
 app.use(express.static(path.join(process.cwd(), "build")));
 
 const server = app.listen(PORT, () =>{
-    console.log(`Listening on http://localhost:${server.address().port}`);
+    console.log(`Server running at port:${server.address().port}`);
 });
