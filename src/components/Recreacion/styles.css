@@ -1,0 +1,12 @@
+.registro_recreacionStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  font-size: 30px;
+  color: MidnightBlue;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  border: 2px solid black;
+  border-radius: 20px;
+}

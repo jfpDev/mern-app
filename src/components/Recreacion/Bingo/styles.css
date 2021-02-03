@@ -1,0 +1,55 @@
+.bingo_style{
+  background-color: Azure;
+  margin-top: 200px;
+}
+
+.title_bingoStyle{
+  color: MidnightBlue;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+@media screen (max-width: 400px) {
+  .bingo_style{
+    margin-top: 100px;
+  }
+  .title_bingoStyle{
+    color: MidnightBlue;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+  }
+}
+
+.bingoBoxes_style{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tableNumber_bingoStyle{
+  margin-top: 5%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb_bingoStyle{
+  margin-top: 10px;
+}
+
+.table_bingoStyle{
+
+}

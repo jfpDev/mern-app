@@ -1,0 +1,62 @@
+.tabla_style{
+  margin-bottom: 10px;
+}
+
+.letras_tablaStyle{
+  font-size: 50px;
+  color: ForestGreen;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  padding-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.letra_tablaStyle{
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+}
+
+.fichos_tablaStyle{
+  background-color: LemonChiffon;
+  border: 1px solid black;
+  border-radius: 80px;
+
+}
+
+.image_tablaStyle{
+  max-width: 100%;
+  max-height: 100%;
+  background-color: Azure;
+}
+
+.fichosRow_tablaStyle{
+  padding-left: 15%;
+}
+
+.fichoImage_tablaStyle{
+  background-color: Azure;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.ficho_tablaStyle{
+  height: 100px;
+  border: 1px solid black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}

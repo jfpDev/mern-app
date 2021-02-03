@@ -1,0 +1,34 @@
+.registro_style{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: Azure;
+  border-radius: 50px;
+}
+
+.titulo_registroStyle{
+  text-align: center;
+  font-weight: bold;
+  color: ForestGreen;
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.form_resgistroStyle{
+  margin: auto;
+  width: 50%;
+  padding-top: 100px;
+}
+
+.btn_registroStyle{
+  width: 75%;
+  margin: auto;
+}
+
+.formButton_registroStyle{
+  display: flex;
+  justify-content: center;
+}

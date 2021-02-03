@@ -1,0 +1,36 @@
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .atencionStyle {
+    padding-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1230px) {
+  .atencionStyle {
+    padding-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 1231px){
+  .atencionStyle {
+    padding-top: 200px;
+  }
+}
+
+.atencionStyle{
+  margin-bottom: 20px;
+}
+
+.info_atencionStyle{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: green;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.image_atencionStyle{
+  width: 100%;
+}

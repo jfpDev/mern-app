@@ -1,0 +1,29 @@
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .noticiasStyle {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1230px) {
+  .noticiasStyle {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 1231px){
+  .noticiasStyle {
+    margin-top: 200px;
+  }
+}
+
+.image_noticiasStyle{
+  background-image: url("gente.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 342px;
+}
+
+.textimage_noticiasStyle{
+  background-color: CornFlowerBlue;
+  text-align: center;
+}

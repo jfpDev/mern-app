@@ -1,0 +1,131 @@
+.tableList_style{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.table_tableliststyle{
+  margin-top: 0px;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.input_tableListStyle, .button_tableListStyle
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: relative;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 600px;
+    padding: 35px;
+    margin: 80px auto 20px auto;
+    background-color: CadetBlue;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px CadetBlue, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+}
+
+.input_tableListStyle
+{
+    width: 100%;
+    height: 96px;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.input_tableListStyle::placeholder
+{
+    color: White;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+.button_tableListStyle
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    margin-top: 0;
+    border-width: 5px;
+    border: 10px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+.person_tablelistStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.buttonBingo_tableListStyle{
+  border-radius: 20px;
+  background-color: CadetBlue;
+  box-shadow: 3px 3px 10px 2px #084538;
+  color: White;
+  font-size: 50px;
+}
+
+.winners_tableListStyle{
+  margin-top: 10px;
+  display: inline-block;
+  width: 20%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.winnersPerson_tableListStyle{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #079272;
+  border-radius: 40px;
+  font-size: 25px;
+  box-shadow: 3px 3px 10px 2px #084538;
+  color: White;
+}
+
+.ganadores_tableListStyle{
+  margin-top: 500px;
+  font-size: 50px;
+  color: ForestGreen;
+  display: flex;
+  justify-content: center;
+}

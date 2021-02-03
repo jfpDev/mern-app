@@ -1,0 +1,32 @@
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .davidStyle {
+    padding-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1230px) {
+  .davidStyle {
+    padding-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 1231px){
+  .davidStyle {
+    padding-top: 200px;
+  }
+}
+
+.breadcrumb_fernandoStyle:hover{
+  color: Indigo;
+}
+
+.justifyStyle{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.david_imageStyle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

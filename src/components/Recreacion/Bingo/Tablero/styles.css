@@ -1,0 +1,59 @@
+.tablero_style{
+  padding-top: 100px;
+  background-color: Ivory;
+}
+
+.tableroUp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableroTable{
+  width: 50%;
+}
+
+.erase_tableroStyle{
+  text-align: center;
+  font-size: 40px;
+  border-radius: 50px;
+  background-color: DarkSeaGreen;
+  cursor: pointer;
+  width: 20%;
+  height: 150px;
+  padding-top: 40px;
+  color: SteelBlue;
+}
+
+.row_tableroStyle{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.letras_tableroStyle{
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-right: 10px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: ForestGreen;
+  background-color: LightGoldenRodYellow;
+}
+
+.fichos_tableroStyle{
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 80px;
+  max-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  cursor: pointer;
+  background-color: LemonChiffon;
+}

@@ -1,0 +1,36 @@
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .cardinfoStyle {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1230px) {
+  .cardinfoStyle {
+     margin-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 1231px){
+  .cardinfoStyle {
+    margin-top: 200px;
+  }
+}
+
+.breadcrumb_anaStyle:hover{
+  color: Indigo;
+}
+
+.justifyStyle{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.david_imageStyle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5{
+  text-align: justify;
+}

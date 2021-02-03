@@ -1,0 +1,19 @@
+.navStyle{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  border-bottom: 10px solid LightSeaGreen;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.imgStyle {
+    height: 100%;
+    width: auto;
+}
+
+
+.nav-link-active{
+  border-top: 5px solid LightSeaGreen;
+  height: 50px;
+}

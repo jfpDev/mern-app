@@ -1,0 +1,67 @@
+/*
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .transparenciaStyle {
+    padding-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1230px) {
+  .transparenciaStyle {
+    padding-top: 180px;
+  }
+  .acuerdo009Style{
+    border: 2px solid black;
+    text-align: justify;
+    margin: 20px 100px 20px 100px;
+  }
+}
+
+@media only screen and (min-width: 1231px){
+  .transparenciaStyle {
+    padding-top: 200px;
+  }
+  .acuerdo009Style{
+    border: 2px solid black;
+    text-align: justify;
+    margin: 20px 100px 20px 100px;
+    padding: 20px;
+  }
+}
+
+
+.mainNavTitle_transparenciaStyle{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.transparenciaMenu{
+}
+
+.transparenciaContent{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+.content_transparenciaStyle{
+  margin-top: 180px;
+}
+
+.transparenciaContent_transparenciaStyle{
+  
+}
+
+.transparenciaContent{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.acuerdo009Style{
+  border: 2px solid black;
+  text-align: justify;
+}
+
+.moreinfo_transparenciaStyle{
+  text-align: right;
+}
+
+*/
