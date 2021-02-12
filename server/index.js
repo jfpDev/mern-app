@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-const PORT = process.env.PORT || 80;
+const resourcesProducts = require('../routes/api/resources');
 
-app.get('/api/resources', (req, res) => {
-    res.send("Api resources");
-});
+const PORT = process.env.PORT || 8000;
+
+app.use('/api/resources', resourcesProducts);
 
 app.use(express.static(path.join(process.cwd(), "build")));
 
