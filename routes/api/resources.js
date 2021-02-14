@@ -1,43 +1,59 @@
 const express = require('express');
 const router = express.Router();
 
-const productMock = require('../../utils/mocks/products');
+const ProductsService = require('../../services/products')
 
 
-router.get('/', (req, res) => {
-    const {query} = req.query;
-    res.status(200).json({
-        data: productMock,
-        message: 'Products listed'
-    });
-});
+const productsServices = new ProductsService();
 
-router.get('/:id', (req, res) => {
-    const {id} = req.params;
+router.get('/', async (req, res, next) => {
+    const {tags} = req.query;
+    try {
+        const products = await productsServices.getProducts({tags})
+        res.status(200).json({
+            data: products,
+            message: 'Products listed'
+        });
+        console.log({tags});    
+    } catch (error) {
+        next(error);
+    }
     
+});
+
+router.get('/:id', async (req, res) => {
+    const {id} = req.params;
+    const product = await productsServices.getProducts({id});
     res.status(200).json({
-        data: productMock[0],
-        message: 'Products listed'
+        data: product,
+        message: 'The required product is here'
     });
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
+    const {body: productReq} = req;
+    const product = await productsServices.createProducts({productReq});
     res.status(201).json({
-        data: productMock[0],
+        data: product,
         message: 'Product created'
     });
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
+    const {productReq} = req.params;
+    const {body: detail} = req;
+    const product = await productsServices.updateProducts({productReq, detail});
     res.status(200).json({
-        data: productMock,
-        message: 'Products listed'
+        data: product,
+        message: 'Product updated sucessfully'
     });
 });
 
-router.delete('/', (req, res) => {
+router.delete('/:id', async (req, res) => {
+    const {productReq} = req.params;
+    const product = await productsServices.updateProducts({productReq});
     res.status(200).json({
-        data: productMock[0],
+        data: product,
         message: 'Products deleted'
     });
 });

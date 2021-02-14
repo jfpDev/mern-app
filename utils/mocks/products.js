@@ -1,4 +1,4 @@
-const productMock = [
+const productsMock = [
     {
         name : "JUAN",
         price: "150k"
@@ -13,4 +13,4 @@ const productMock = [
     },
 ];
 
-module.exports = productMock;
+module.exports = productsMock;
